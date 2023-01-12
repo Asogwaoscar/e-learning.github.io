@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container2{
+    height: 34vh;
+    width: 100%;
+    /* background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(img/water.png); */
+    background-position: center;
+    background-size: cover;
+   
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    background: white;
+    margin: 6% auto;
+    position: relative;
+    padding: 5px;
+}
+.button-box{
+    /* border: 2px solid; */
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 3px gray;
+    border-radius: 35px;
+
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    position: relative;
+}
